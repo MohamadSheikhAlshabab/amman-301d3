@@ -1,0 +1,1 @@
+This repository includes challenges of every days with new partner for paired lab.
