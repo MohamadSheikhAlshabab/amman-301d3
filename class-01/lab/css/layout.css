@@ -1,0 +1,238 @@
+#head{
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+#main{
+    height: 767px;
+    width: 480px;
+    line-height: 767px;
+    margin: 0 auto;
+    /* position: relative; */
+ 
+}
+
+.p{
+     margin-top: 11px; 
+    margin-left: 10px;
+   
+    position: absolute;
+}
+#a{
+height: 75px;
+width: 480px;
+background-color:red;
+line-height: 75px;
+text-align: center;
+border:0.5px solid #b4b3b3;
+/* position: relative; */
+
+}
+
+#b{
+height: 150px;
+width: 480px;
+background-color: gold;
+line-height: 150px;
+text-align: center;
+border:0.5px solid #b4b3b3;
+/* position: relative; */
+}
+#c{
+height: 125px;
+width: 480px;
+background-color: greenyellow;
+line-height: 125px;
+text-align: center;
+border:0.5px solid #b4b3b3;
+/* position: relative; */
+}
+#d{
+height: 125px;
+width: 480px;
+background-color: rebeccapurple;
+line-height: 125px;
+text-align: center;
+border:0.5px solid #b4b3b3;
+/* position: relative; */
+}
+#e{
+height: 250px;
+width: 240px;
+margin-left: -1px;
+background-color: tan;
+line-height: 250px;
+text-align: center;
+border:0.5px solid #b4b3b3;
+ float:left;
+/*clear: left; */
+width: 49%;
+position: relative;
+/* display: inline-block; */
+}
+#f{
+height: 250px;
+width: 240px;
+
+background-color: yellowgreen;
+line-height: 250px;
+text-align: center;
+border:0.5px solid #b4b3b3;
+float:left;
+/* clear: right; */ 
+width: 50%;
+/* display: inline-block; */
+position: relative;
+}
+#g{
+height: 250px;
+width: 240px;
+margin-left: 1px;
+background-color: wheat;
+line-height: 250px;
+text-align: center;
+border:0.5px solid #b4b3b3;
+float:right;
+/* clear: left; */
+width: 49%;
+position: relative;
+/* display: inline-block; */
+}
+#h{
+height: 250px;
+width: 240px;
+
+margin-right: 1px;
+background-color: aqua;
+line-height: 250px;
+text-align: center;
+border:0.5px solid #b4b3b3;   
+ float:right;
+/*clear: right;*/
+width: 50%;
+position: relative;
+/* display: inline-block; */
+}
+#i{
+height: 80px;
+width: 480px;
+background-color: goldenrod;
+line-height: 80px;
+text-align: center;
+border:0.5px solid #b4b3b3;   
+position: absolute;
+}
+@media(min-width:960px){
+ #main{
+ height: 960px;
+ width: 767px;
+ line-height: 960px;
+ margin: 0 auto;
+ /* position: relative; */
+ 
+ } 
+ #a{
+ height: 100px;
+ width: 960px;
+ background-color: #345c00;
+ line-height: 100px;
+ text-align: center;
+ border:0.5px solid #b4b3b3;
+ /* position: relative; */
+ }
+ 
+ #b{
+ height: 600px;
+ width: 200px;
+ background-color: #0c81ee;
+ line-height: 600px;
+ text-align: center;
+ border:0.5px solid #b4b3b3;
+ /* position: relative; */
+ }
+ #c{
+ height: 380px;
+ width: 200px;
+ background-color: #0d0083;
+ line-height: 380px;
+ text-align: center;
+ border:0.5px solid #b4b3b3;
+ /* position: relative; */
+ float: right;
+ }
+ #d{
+    height: 380px;
+    width: 200px;
+    background-color: #00830b;
+    line-height: 380px;
+ text-align: center;
+ border:0.5px solid #b4b3b3;
+ /* position: relative; */
+ float: right;
+ }
+ #e{
+    height: 250px;
+    width: 190px;
+    background-color: #ca08b0;
+    line-height: 250px;
+    text-align: center;
+    border:0.5px solid #b4b3b3;
+     /* float:left; */
+    /*clear: left; */
+    width: 25%;
+    /* position: relative; */
+    display: inline-block;
+    float: right;
+    }
+    #f{
+    height: 250px;
+    width: 190px;
+    background-color: #00e4d1;
+    line-height: 250px;
+    text-align: center;
+    border:0.5px solid #b4b3b3;
+    float:right;
+    /* clear: right; */ 
+    width: 25%;
+    display: inline-block;
+    /* position: relative; */
+  
+    }
+    #g{
+    height: 250px;
+    width: 190px;
+    background-color: #a00606;
+    line-height: 250px;
+    text-align: center;
+    border:0.5px solid #b4b3b3;
+    float: right;;
+    /* clear: left; */
+    width: 25%;
+    /* position: relative; */
+    display: inline-block;
+    }
+    #h{
+    height: 250px;
+    width: 190px;
+    background-color: #ffee00;
+    line-height: 250px;
+    text-align: center;
+    border:0.5px solid #b4b3b3;   
+     float:right;
+    /*clear: right;*/
+    width: 25%;
+    /* position: relative; */
+    display: inline-block;
+    }
+ #i{
+  height: 150px;
+  width: 760px;
+  background-color: #7700ff;
+  line-height: 150px;
+  text-align: center;
+  border:0.5px solid #b4b3b3;   
+  position: relative;
+   }   
+}
