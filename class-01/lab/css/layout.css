@@ -1,10 +1,15 @@
+@import 'reset.css';
+@import 'base.css';
+@import 'modules.css';
+
 #head{
     width: 480px;
-    margin: 0 auto;
+    margin-left:8vh ;
     margin-top: 25px;
     margin-bottom: 25px;
 
 }
+
 .main{
     height: 767px;
     width: 480px;
@@ -38,22 +43,53 @@
 	align-items: center;
 	justify-content: center;
 }
+
 .p{
-     margin-top: 11px; 
-    margin-left: 10px;
    
-    position: absolute;
+   margin-left: 0.5em;
+   margin-top: 1vh;
+
+   
 }
-.a{
-height: 75px;
-width: 480px;
-background-color:red;
-line-height: 75px;
-text-align: center;
-border:0.5px solid #b4b3b3;
-/* position: relative; */
+.container div ,.main div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 
 }
+.container .p{
+   
+
+    display: grid;  
+  
+    grid-template-rows: 0.5fr 9.5fr; 
+
+}
+
+p.text   {
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-basis: 380vw;
+    margin-top: 15px;
+
+}
+p.p {
+    margin-top: -10%;
+    
+   
+}
+
+.a{
+height: 75px;
+
+width: 480px;
+background-color:red;
+    border:0.5px solid #b4b3b3; 
+
+}
+
 
 .b{
 height: 150px;
@@ -66,13 +102,12 @@ border:0.5px solid #b4b3b3;
 }
 .c{
 height: 125px;
+
 width: 480px;
 background-color: greenyellow;
-line-height: 125px;
-text-align: center;
-border:0.5px solid #b4b3b3;
-/* position: relative; */
+    border:0.5px solid #b4b3b3; 
 }
+
 .d{
 height: 125px;
 width: 480px;
